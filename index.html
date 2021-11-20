@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Icefox</title>
+    <script src="https://udn.codersquack.ml/brython/brython.js"></script>
+    <script type="text/javascript" src="https://udn.codersquack.ml/brython/brython_stdlib.js"></script>
+    <script src="https://udn.codersquack.ml/brython/header.brython.js"></script>
+    <link href="styling/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="brython()">
+    <script src="js/script.js"></script>
+		
+    <header class="addressbar">
+			<button class="wingdings" id="goback" title="Click to go back">ß</button>
+			<button class="wingdings" id="return" title="Click to go forward">à</button>
+			<button id="reload" title="Reload this page">⟳</button>
+			<button id="home" title="Go to the home page">🏠</button>
+			<button id="fs" title="Switch to full screen mode">Full screen</button>
+			
+			<input placeholder="Enter URL in here" id="URL">
+			<button id="travel!" title="Click to go to the URL">Travel!</button>
+      <button id="settings" title="Settings">⚙️</button>
+			
+    <script type="text/python" src="code/editorcode.py"></script>
+    </header>
+    <div id="website" style="width: 100%; height: 100%;">
+
+    </div>
+  </body>
+</html>
